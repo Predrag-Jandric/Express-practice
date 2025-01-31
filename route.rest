@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/679bd3ec30d55f15ba7462e8
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "John",
+  "subscribedToChannel": "hunting in wild"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/id
+
+###
+PATCH http://localhost:3000/subscribers/679bcca74aebb4625e998219
+Content-Type: application/json
+
+{
+  "name": "PETER2"
+}
